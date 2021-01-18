@@ -1,0 +1,29 @@
+{
+  "name": "@nbp/oauth2",
+  "version": "1.0.0",
+  "description": "The OAuth 2.0 Protocol was applied by NodeJS with Redis Cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umutcakirbm/nbp-oauth2.git"
+  },
+  "keywords": [
+    "oauth2",
+    "access_token",
+    "refresh_token",
+    "authorization",
+    "jwt"
+  ],
+  "author": "Umut CAKIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umutcakirbm/nbp-oauth2/issues"
+  },
+  "homepage": "https://github.com/umutcakirbm/nbp-oauth2#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
