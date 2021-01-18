@@ -1,7 +1,7 @@
 {
   "name": "@nbp/oauth2",
   "version": "1.0.0",
-  "description": "The OAuth 2.0 Protocol was applied by NodeJS with Redis Cache",
+  "description": "The OAuth 2.0 Protocol was applied by NodeJS with JWT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,11 @@
   },
   "homepage": "https://github.com/umutcakirbm/nbp-oauth2#readme",
   "dependencies": {
-    "redis": "^3.0.2"
+    "bcrypt": "^5.0.0",
+    "csprng": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "redis": "^3.0.2",
+    "unirand": "^2.11.1"
   }
 }
